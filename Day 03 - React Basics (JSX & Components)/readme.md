@@ -1,24 +1,25 @@
-# Day 04 - React State & Handling Events
+# Day 03 - React Basics (JSX & Components)
 
 ## 📌 Goal:  
-Understand how to manage **state** in React using `useState` and how to handle user interactions with event listeners.
+Learn the basics of **JSX** and **React components** to build dynamic UI elements.
 
 ## 📖 What You Will Learn:  
-✅ What **state** is in React and why it’s needed  
-✅ How to use the **`useState`** hook to manage state  
-✅ How to handle **events** like clicks and input changes  
-✅ How to update the UI dynamically when state changes  
+✅ What JSX is and how it works in React  
+✅ How to create and use **functional components**  
+✅ How to use **props** to pass data between components  
+✅ How to structure a basic **React application**  
 
 ## 📚 Study Material:  
-- [React State](https://react.dev/learn/state-a-components-memory)  
-- [Handling Events in React](https://react.dev/learn/responding-to-events)  
+- [JSX in React](https://react.dev/learn/writing-markup-with-jsx)  
+- [React Components](https://react.dev/learn/your-first-component)  
+- [React Props](https://react.dev/learn/passing-props-to-a-component)  
 
 ## 🛠 Task:  
-1️⃣ **Create a Counter Component** (`Counter.js`) with a button to increase a number.  
-2️⃣ Use **`useState`** to store the counter value.  
-3️⃣ Add an **onClick event** to update the counter when the button is clicked.  
-4️⃣ **Display the counter value** dynamically on the screen.  
+1️⃣ **Create a new React component** called `Message.js` that displays `"Hello, React!"`.  
+2️⃣ **Use JSX** to add an `<h1>` inside your component.  
+3️⃣ **Pass props** to the `Message` component to change the text dynamically.  
+4️⃣ **Import and render** `Message.js` inside `App.js`.  
 5️⃣ **Push your progress to GitHub**.  
 
 ## 🚀 Next Step:  
-Tomorrow, we will **learn about Django Models & Creating an API!** 🎯  
+Tomorrow, we will **learn about React State & Handling Events!** 🎯  
